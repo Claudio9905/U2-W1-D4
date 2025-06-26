@@ -1,88 +1,94 @@
-const post1 = document.querySelector(".post-1");
-const post2 = document.querySelector(".post-2");
-const post3 = document.querySelector(".post-3");
-const post4 = document.querySelector(".post-4");
-const post5 = document.querySelector(".post-5");
-const post6 = document.querySelector(".post-6");
-const post7 = document.querySelector(".post-7");
-const post8 = document.querySelector(".post-8");
+const firstPost = document.getElementById("post1");
 
-post1.addEventListener("mouseenter", () => {
-  const pin = document.getElementById("punteruolo");
+firstPost.addEventListener("mouseenter", () => {
+  const pin = document.getElementById("punteruolo1");
   pin.classList.add("punteruoloUp");
 });
 
-post1.addEventListener("mouseleave", () => {
-  const pin = document.getElementById("punteruolo");
+firstPost.addEventListener("mouseleave", () => {
+  const pin = document.getElementById("punteruolo1");
   pin.classList.remove("punteruoloUp");
 });
 
-post2.addEventListener("mouseenter", () => {
-  const pin = document.getElementById("punteruolo");
+const secondPost = document.getElementById("post2");
+
+secondPost.addEventListener("mouseenter", () => {
+  const pin = document.getElementById("punteruolo2");
   pin.classList.add("punteruoloUp");
 });
 
-post2.addEventListener("mouseleave", () => {
-  const pin = document.getElementById("punteruolo");
+secondPost.addEventListener("mouseleave", () => {
+  const pin = document.getElementById("punteruolo2");
+  pin.classList.remove("punteruoloUp");
+});
+const thirdPost = document.getElementById("post3");
+
+thirdPost.addEventListener("mouseenter", () => {
+  const pin = document.getElementById("punteruolo3");
+  pin.classList.add("punteruoloUp");
+});
+
+thirdPost.addEventListener("mouseleave", () => {
+  const pin = document.getElementById("punteruolo3");
   pin.classList.remove("punteruoloUp");
 });
 
-post3.addEventListener("mouseenter", () => {
-  const pin = document.getElementById("punteruolo");
+const fourthPost = document.getElementById("post4");
+
+fourthPost.addEventListener("mouseenter", () => {
+  const pin = document.getElementById("punteruolo4");
   pin.classList.add("punteruoloUp");
 });
 
-post3.addEventListener("mouseleave", () => {
-  const pin = document.getElementById("punteruolo");
+fourthPost.addEventListener("mouseleave", () => {
+  const pin = document.getElementById("punteruolo4");
   pin.classList.remove("punteruoloUp");
 });
 
-post4.addEventListener("mouseenter", () => {
-  const pin = document.getElementById("punteruolo");
+const fifthPost = document.getElementById("post5");
+
+fifthPost.addEventListener("mouseenter", () => {
+  const pin = document.getElementById("punteruolo5");
   pin.classList.add("punteruoloUp");
 });
 
-post4.addEventListener("mouseleave", () => {
-  const pin = document.getElementById("punteruolo");
+fifthPost.addEventListener("mouseleave", () => {
+  const pin = document.getElementById("punteruolo5");
   pin.classList.remove("punteruoloUp");
 });
 
-post5.addEventListener("mouseenter", () => {
-  const pin = document.getElementById("punteruolo");
+const sixPost = document.getElementById("post6");
+
+sixPost.addEventListener("mouseenter", () => {
+  const pin = document.getElementById("punteruolo6");
   pin.classList.add("punteruoloUp");
 });
 
-post5.addEventListener("mouseleave", () => {
-  const pin = document.getElementById("punteruolo");
+sixPost.addEventListener("mouseleave", () => {
+  const pin = document.getElementById("punteruolo6");
   pin.classList.remove("punteruoloUp");
 });
 
-post6.addEventListener("mouseenter", () => {
-  const pin = document.getElementById("punteruolo");
+const sevenPost = document.getElementById("post7");
+
+sevenPost.addEventListener("mouseenter", () => {
+  const pin = document.getElementById("punteruolo7");
   pin.classList.add("punteruoloUp");
 });
 
-post6.addEventListener("mouseleave", () => {
-  const pin = document.getElementById("punteruolo");
+sevenPost.addEventListener("mouseleave", () => {
+  const pin = document.getElementById("punteruolo7");
   pin.classList.remove("punteruoloUp");
 });
 
-post7.addEventListener("mouseenter", () => {
-  const pin = document.getElementById("punteruolo");
+const eightPost = document.getElementById("post8");
+
+eightPost.addEventListener("mouseenter", () => {
+  const pin = document.getElementById("punteruolo8");
   pin.classList.add("punteruoloUp");
 });
 
-post7.addEventListener("mouseleave", () => {
-  const pin = document.getElementById("punteruolo");
-  pin.classList.remove("punteruoloUp");
-});
-
-post8.addEventListener("mouseenter", () => {
-  const pin = document.getElementById("punteruolo");
-  pin.classList.add("punteruoloUp");
-});
-
-post8.addEventListener("mouseleave", () => {
-  const pin = document.getElementById("punteruolo");
+eightPost.addEventListener("mouseleave", () => {
+  const pin = document.getElementById("punteruolo8");
   pin.classList.remove("punteruoloUp");
 });

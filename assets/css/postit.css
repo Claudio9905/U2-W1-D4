@@ -90,7 +90,7 @@ main section .post h3 {
   transition: all 0.2s linear 0s;
 }
 
-#punteruolo {
+.fa-thumbtack {
   color: darkred;
   font-size: 2em;
   margin-bottom: 0.5em;
