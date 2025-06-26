@@ -1,0 +1,153 @@
+body {
+  background-color: rgb(40, 37, 37);
+  background-image: url(../img/wallpaper-postit.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main section {
+  width: 67em;
+  height: 27em;
+  /* justify-content: center; */
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0em;
+  background-color: #62606000;
+}
+
+main section .post {
+  height: 9em;
+  width: 15em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.242);
+  background-image: linear-gradient(3deg, #00000066, #00000000);
+}
+
+main section .post h2 {
+  font-size: 1.7em;
+  font-family: "Pacifico", cursive;
+  margin-bottom: 1em;
+}
+
+main section .post h3 {
+  font-family: "Meow Script", cursive;
+  font-size: 1.7em;
+}
+
+.post-1 {
+  background-color: rgb(253, 253, 142);
+  transform: rotate(354deg);
+  transition: all 0.2s linear 0s;
+}
+
+.post-2 {
+  background-color: rgb(207, 249, 155);
+  transform: rotate(349deg);
+  transition: all 0.2s linear 0s;
+}
+.post-3 {
+  background-color: rgb(213, 166, 229);
+  transform: rotate(6deg);
+  transition: all 0.2s linear 0s;
+}
+.post-4 {
+  background-color: rgb(207, 249, 155);
+  transform: rotate(354deg);
+  transition: all 0.2s linear 0s;
+}
+.post-5 {
+  background-color: rgb(253, 253, 142);
+  transform: rotate(351deg);
+  transition: all 0.2s linear 0s;
+}
+.post-6 {
+  background-color: rgb(213, 166, 229);
+  transform: rotate(352deg);
+  transition: all 0.2s linear 0s;
+}
+.post-7 {
+  background-color: rgb(253, 253, 142);
+  transform: rotate(11deg);
+  transition: all 0.2s linear 0s;
+}
+.post-8 {
+  background-color: rgb(207, 249, 155);
+  transform: rotate(3deg);
+  transition: all 0.2s linear 0s;
+}
+
+#punteruolo {
+  color: darkred;
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  transition: all 0.2s linear 0s;
+}
+
+/* applicazione del hover per portare in primo piano il postit al passaggio del mouse */
+
+.post-1:hover {
+  box-shadow: 6px 6px 10px -2px black;
+  transform: rotate(0deg);
+  transform: scale(1.3);
+  z-index: 2;
+}
+.post-2:hover {
+  box-shadow: 6px 6px 10px -2px black;
+  transform: rotate(0deg);
+  transform: scale(1.3);
+  z-index: 2;
+}
+.post-3:hover {
+  box-shadow: 6px 6px 10px -2px black;
+  transform: rotate(0deg);
+  transform: scale(1.3);
+  z-index: 2;
+}
+.post-4:hover {
+  box-shadow: 6px 6px 10px -2px black;
+  transform: rotate(0deg);
+  transform: scale(1.3);
+  z-index: 2;
+}
+.post-5:hover {
+  box-shadow: 6px 6px 10px -2px black;
+  transform: rotate(0deg);
+  transform: scale(1.3);
+  z-index: 2;
+}
+.post-6:hover {
+  box-shadow: 6px 6px 10px -2px black;
+  transform: rotate(0deg);
+  transform: scale(1.3);
+  z-index: 2;
+}
+.post-7:hover {
+  box-shadow: 6px 6px 10px -2px black;
+  transform: rotate(0deg);
+  transform: scale(1.3);
+  z-index: 2;
+}
+.post-8:hover {
+  box-shadow: 6px 6px 10px -2px black;
+  transform: rotate(0deg);
+  transform: scale(1.3);
+  z-index: 2;
+}
+
+.punteruoloUp {
+  transform: translateX(20px) rotate(45deg);
+}
