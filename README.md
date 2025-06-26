@@ -1,2 +1,2 @@
-# U2-W1-D4
+Esercitazione sull'uso delle proprietà CSS : animation, transform e transition
 
